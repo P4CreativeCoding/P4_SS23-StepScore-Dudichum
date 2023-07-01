@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import "./Main.css";
-import logo from "../../assets/bechtle-logo.png";
-import Bild1 from "../../assets/protein.png";
-import Bild2 from "../../assets/apple-watch.jpg";
-import sorry from "../../assets/sorry.png";
+import logo from "../../assets/img/bechtle-logo.png";
+import Bild1 from "../../assets/img/protein.png";
+import Bild2 from "../../assets/img/apple-watch.jpg";
+import sorry from "../../assets/img/sorry.png";
+
 
 const App = () => {
   const [inputValue, setInputValue] = useState("");
@@ -52,11 +53,11 @@ const App = () => {
             onChange={handleInputChange}
           />
           <button
-            className="btn btn-outline-secondary"
-            type="Senden"
+            className="hover-button"
+            type="input"
             id="button-addon2"
           >
-            Button
+            Senden
           </button>
         </div>
       </form>

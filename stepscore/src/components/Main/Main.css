@@ -8,6 +8,7 @@
 
 h1 {
   margin-bottom: 5%;
+  color: #222222;
 }
 
 .text-1 {
@@ -24,3 +25,14 @@ h1 {
   margin: auto;
 }
 
+.hover-button{
+  background-color: #ABABAB;
+  color: white;
+  border-radius:0.5 em;
+  text-decoration: none;
+  border-style: none;
+}
+
+.hover-button:hover {
+  background-color: #23D000;
+}
