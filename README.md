@@ -3,15 +3,9 @@
 This is the prototype of my semesterproject "StepScore"
 P4 SS23 Franziska Dudichum Team 5
 
-<h2>How to run the code</h2>
+You will find the readme for the frontend code in the folder "frontend/stepscore"
 
-1. npm install
+The Hardwarecode-readme is in the folder "Hardware"
 
-2. npm start
 
-3. Finished!
-
-<h2>used packages:</h2>
-
-create-react-app
-bootstrap 5.3
+You can see the frontend-code working at render: https://stepscore.onrender.com/
